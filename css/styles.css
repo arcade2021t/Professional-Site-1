@@ -1,0 +1,159 @@
+/* TAG SELECTORS */
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+  h1  {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 180px auto 0 auto;
+    color: #261C2C;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #261C2C;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5C527F;
+
+  }
+
+  hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #5C527F;
+    width: 5%;
+  }
+
+  a {
+    color: #5C527F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0px 20px 0px 20px;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+/* CLASS SELECTORS */
+.top-container {
+  background-color: #6E85B2;
+  position: relative;
+  padding-top: 40px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 400px;
+  top: 100px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 370px;
+}
+
+.Web_ {
+  text-decoration: underline;
+}
+
+.mountain {
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-bottom:75px;
+}
+
+.master_shake_logo {
+  border-radius: 100%;
+  border: solid;
+  border-color: #5C527F;
+  width: 256px;
+  height: 256px;
+  margin-top: 40px;
+}
+
+.hello_text {
+  width: 25%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill_row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.horde_logo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.burger_logo {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #6E85B2;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.contact_me_btn {
+  background: #6E85B2;
+  background-image: -webkit-linear-gradient(top, #6E85B2, #2980b9);
+  background-image: -moz-linear-gradient(top, #6E85B2, #2980b9);
+  background-image: -ms-linear-gradient(top, #6E85B2, #2980b9);
+  background-image: -o-linear-gradient(top, #6E85B2, #2980b9);
+  background-image: linear-gradient(to bottom, #6E85B2, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact_me_btn:hover {
+  background: #399ddb;
+  background-image: -webkit-linear-gradient(top, #399ddb, #416b85);
+  background-image: -moz-linear-gradient(top, #399ddb, #416b85);
+  background-image: -ms-linear-gradient(top, #399ddb, #416b85);
+  background-image: -o-linear-gradient(top, #399ddb, #416b85);
+  background-image: linear-gradient(to bottom, #399ddb, #416b85);
+  text-decoration: none;
+}
+
+.contact_me_text {
+  padding-bottom: 50px;
+}
+
+.copyright {
+  padding-top: 20px;
+  color: black;
+  font-size: 0.875rem;
+}
+/* ID SECLECTORS */
